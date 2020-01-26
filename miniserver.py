@@ -21,8 +21,5 @@ def index():
 def status_test():
     return Response("401 test", status=401)
 
-def main():
-    app.run(port=8080, debug=False)
-
 if __name__ == '__main__':
-    main()
+    app.run(port=8080, debug=False)
