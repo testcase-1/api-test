@@ -1,6 +1,6 @@
 # Rest Api Test Script
 
-## Kullanilan kutuphaneler
+## Kullanılan kütüphaneler
 
 * Python-requests: HTTP istekleri ve bu isteklerin yanıtlarını incelemek amacıyla kullanıldı.
 HTTP yanıtındaki isteğin durum kodunun parse edilebilmesi için status_code metodu kullanıldı. İstendiği üzere 200 HTTP durum koduna eşit ise "başarılı" geri kalan tüm durumlar için "başarısız" çıktısı verecek şekilde yazıldı.
@@ -14,7 +14,7 @@ HTTP yanıtındaki isteğin durum kodunun parse edilebilmesi için status_code m
 # miniserver Python Script:
 
 
-## Kullanilan kutuphaneler
+## Kullanılan kütüphaneler
 
 * Python-flask: Testin testini yapabilmek için flask ile mini http sunucu uygulaması yazılmıştır. 
 
