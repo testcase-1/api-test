@@ -20,7 +20,7 @@ HTTP yanıtındaki isteğin durum kodunun parse edilebilmesi için status_code m
 
 Örnek amacıyla sadece bazı test case'leri yazılan bu script, extra olarak eklenmiştir. 
 
-> 'hostname/200' adresine istek gönderilirse HTTP durum yaniti 200 verecek; 'hostname/not200' adresine istek gönderildiğinde ise 401 HTTP durum yanıtı dönmektedir.
+_'hostname/200'_ adresine istek gönderilirse HTTP durum yaniti 200 verecek; _'hostname/not200'_ adresine istek gönderildiğinde ise 401 HTTP durum yanıtı dönmektedir.
 
-> miniserver.py çalışır durumda iken test(main.py) scriptimizin bu 2 adrese istek yaptığında 'başarılı' ve 'başarısız' çıktılarını vermesi beklenmektedir.
+miniserver.py çalışır durumda iken test(main.py) scriptimizin bu 2 adrese istek yaptığında **'başarılı'** veya **'başarısız'** çıktılarını vermesi beklenmektedir.
 
